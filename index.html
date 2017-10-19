@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link type="text/css" rel="stylesheet" href="Content/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="Content/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="Content/css/common.css">
+    <link type="text/css" rel="stylesheet" href="Content/css/style.css">
+</head>
+<body ng-app="app">
+<header class="header">
+    <h1>购物车</h1>
+    <div class="back"><i class="fa fa-chevron-left"></i></div>
+</header>
+<section class="content">
+    <ui-view></ui-view>
+</section>
+<div class="zong">
+    <div class="xuan"><span></span><h1>全选</h1></div>
+    <h2 class="money">总计：￥<span></span></h2>
+    <button class="btn">结算</button>
+</div>
+<footer class="footer">
+    <dl>
+        <dt><i class="fa fa-home"></i></dt>
+        <dd>首页</dd>
+    </dl>
+    <dl>
+        <dt><i class="fa fa-bell"></i></dt>
+        <dd>活动</dd>
+    </dl>
+    <dl>
+        <dt><i class="fa fa-book"></i></dt>
+        <dd>特价</dd>
+    </dl>
+    <dl>
+        <dt><i class="fa fa-user"></i></dt>
+        <dd>我的</dd>
+    </dl>
+</footer>
+
+<script type="text/javascript" src="Script/angular/angular.min.js"></script>
+<script type="text/javascript" src="Script/angular/angular-ui-router.js"></script>
+<script type="text/javascript" src="App/app.js"></script>
+
+<script type="text/javascript" src="App/Service/baseServer.js"></script>
+<script type="text/javascript" src="App/Service/shopServer.js"></script>
+<script type="text/javascript" src="App/Controllers/shopControllers.js"></script>
+<script type="text/javascript" src="App/Directives/shopDirectives.js"></script>
+</body>
+</html>

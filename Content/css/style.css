@@ -1,0 +1,124 @@
+body {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  font-size: 0.12rem; }
+
+.header {
+  height: 0.45rem;
+  text-align: center;
+  background: pink; }
+  .header h1 {
+    font-weight: normal;
+    line-height: 0.45rem;
+    font-size: 0.19rem;
+    color: #fff; }
+
+.back {
+  font-size: 0.2rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.1rem;
+  color: #fff; }
+
+.content {
+  -webkit-flex: 1;
+  overflow-y: scroll; }
+
+.items {
+  padding: 0.1rem;
+  display: flex;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc; }
+  .items .chose {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 0.1rem; }
+  .items .pic {
+    width: 0.7rem;
+    height: 0.8rem;
+    display: inline-block; }
+    .items .pic img {
+      width: 100%;
+      height: 100%; }
+  .items .con {
+    display: flex;
+    height: 70px;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: space-between;
+    flex: 1; }
+    .items .con h1 {
+      font-weight: normal;
+      font-size: 0.12rem;
+      color: #8c8c8c; }
+    .items .con h2 {
+      font-weight: normal;
+      font-size: 0.12rem;
+      color: #8c8c8c; }
+    .items .con h3 {
+      display: inline-block; }
+      .items .con h3 p {
+        float: right; }
+        .items .con h3 p span {
+          border: 1px solid #ccc;
+          padding-right: 0.04rem;
+          padding-left: 0.04rem; }
+
+.zong {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  position: relative;
+  text-align: center;
+  background: #E2E2E2; }
+  .zong .xuan {
+    position: absolute;
+    left: 0.1rem;
+    top: 0.05rem;
+    font-size: 0.14rem; }
+    .zong .xuan h1 {
+      font-weight: normal;
+      font-size: 0.13rem;
+      display: inline-block; }
+    .zong .xuan span {
+      display: inline-block;
+      width: 0.15rem;
+      height: 0.15rem;
+      border: 1px solid #ccc;
+      border-radius: 0.1rem;
+      margin-right: 0.05rem; }
+  .zong .money {
+    font-weight: normal;
+    font-size: 0.12rem; }
+  .zong .btn {
+    background: orange;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    color: #fff;
+    width: 100px;
+    text-align: center; }
+
+.footer {
+  height: 0.45rem;
+  background: pink;
+  display: -webkit-flex;
+  text-align: center; }
+  .footer dl {
+    -webkit-flex: 1; }
+    .footer dl dt > i {
+      color: hotpink;
+      font-size: 0.2rem;
+      padding-top: 0.05rem; }
+    .footer dl dd {
+      color: hotpink; }
+
+/*# sourceMappingURL=style.css.map */
